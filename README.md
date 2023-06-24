@@ -1,6 +1,6 @@
 2022-1 언어와 컴퓨터(LING405) 수업에서 기말과제로 진행한 [<2018 네이버 NLP Challenge>](https://github.com/naver/nlp-challenge)의 NER(Named Entity Recognition, 개체명인식) 과제를 해결한 과정을 기록해둡니다.
 
-세부적인 과제 해결과정은 코드와 보고서를 참고하세요.
+세부적인 과제 해결과정은 노트북 파일을 참고하세요.
 
 <br>
 
