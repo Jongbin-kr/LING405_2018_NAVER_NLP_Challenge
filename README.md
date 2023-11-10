@@ -1,6 +1,6 @@
 2022-1 언어와 컴퓨터(LING405) 수업에서 기말과제로 진행한 [<2018 네이버 NLP Challenge>](https://github.com/naver/nlp-challenge)의 NER(Named Entity Recognition, 개체명인식) 과제를 해결한 과정을 기록해둡니다.
 
-세부적인 과제 해결과정은 노트북 파일을 참고하세요.
+세부적인 과제 해결과정은 쥬피터 및 pdf 파일 을 참고하세요.
 
 <br>
 
@@ -13,7 +13,7 @@
 
 <br>
 
-## ⚠️주의사항⚠️
-`NLTK`의 나이브베이즈분류기는 non-parametric 모델로서, 주어진 데이터의 특징들을 학습하고 가중치를 업데이트하지 않습니다. 대신 주어진 데이터 각각에 대하여 베이즈확률을 계산하고, 해당 확률값에 따라 테스트데이터에 대한 정확도를 측정합니다.
-
-+ 출처: [NLTK naive bayes classifier documentation](https://www.nltk.org/_modules/nltk/classify/naivebayes.html) 및 [Russel, Artificial Intelligence: A Modern Approach, 2016](https://books.google.co.kr/books?id=XS9CjwEACAAJ&dq=russell+artificial+intelligence+a+modern+approach&hl=ko&newbks=1&newbks_redir=0&sa=X&redir_esc=y)
+## 과제 수행 결과
+- 언어학적 특징들을 활용해 나이브베이즈분류기를 구축한 결과,
+  - 학습 데이터셋에 대해서는 **93.18%**,
+  - 테스트 데이터셋에 대해서는 **88.15%**의 정확도를 확인할 수 있었다.
